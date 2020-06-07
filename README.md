@@ -20,7 +20,7 @@ sudo apt-get update
 - **IMPORTANTE:** Este script fue probado en Kali Linux 2020.2 y Parrot OS Security 4.7, si te ocurre algún problema en futuras versiones o en otros sistemas operativos puedes contactarme mediante mis redes sociales o mi correo publico el cual esta en mi perfil de github o bien en el apartado "Contact".
 
 
-- **NOTA** Esta configuración no es creada por, yo solo desarrolle esta epqueña herramienta, la configuración fue totalme desarrolada por mis comprañero @s4vitar (MArcelo Vázquez) y @vowkn (Víctor Laza) a los cuales les envio un fuerte abrazo 😄👨🏻‍💻.
+- **NOTA** Esta configuración no es creada por, yo solo desarrolle esta epqueña herramienta, la configuración fue totalme desarrolada por mis comprañero @s4vitar (Marcelo Vázquez) y @vowkn (Víctor Laza) a los cuales les envio un fuerte abrazo 😄👨🏻‍💻.
 
 
 - **ERRORES:** Debido a que esta herramienta aún esta en su fase de desarrollo tiene algúnos errores, los cuales hacen que no sea totalmente automatizada, aqui las soluciones:
