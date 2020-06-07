@@ -155,6 +155,6 @@ Ahora ya has terminado de configurarse el entorno de trabajo siguenos en nuestra
 - [Twitter](https://twitter.com/kyb3r_bat)
 - [Instagram](https://www.instagram.com/kyb3r_bat/)
 - [GitHub](https://www.github.com/kyb3r-bat)
-- [ALL](https://allmylinks.com/kyb3r-bat)
 - [Youtube](https://www.youtube.com/channel/UC9DHO7qi_-bLPquT0MLyyxQ)
+- [ALL](https://allmylinks.com/kyb3r-bat)
 <!--- [Page](https://byt3.exe.github.com)-->
