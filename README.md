@@ -6,7 +6,7 @@ Un pequeño script progrmando en bash para poder instalarse el entonrno de escri
 <h1>Instalación</h1>
  Aqui les dejo los comandos para instalarse la configuración:
 
-```
+```bash
 sudo apt-get install wget git -y
 cd ~
 wget https://raw.githubusercontent.com/kyb3r-bat/Kyb3rvotarOS/master/install.sh
@@ -31,7 +31,7 @@ sudo apt-get update
 
 (Desbes de estar en tu cuenta donde instalaste la configuración)
 
-```
+```bash
 cd ~/.config/bspwm/
 mkdir scripts
 cd scripts
@@ -42,7 +42,7 @@ nano bspwm_resize
 
 En este punto te abrira nano (pico) y deberas pegar lo siguiente:
 
-```
+```bash
 #!/usr/bin/env dash
 
 if bspc query -N -n focused.floating > /dev/null; then
@@ -74,11 +74,11 @@ zsh
 
 Aqui deberas selecionar la configuración seleccióna cualquiera al azar, una vez teminado cambiaras esto con estos comandos:
 
-```
+```bash
 exit
 ```
 
-```
+```bash
 rm ~/.p10k.zsh
 cd ~
 wget https://raw.githubusercontent.com/kyb3r-bat/configs_Kyb3rvotarOS/master/zsh/p10k_normal.zsh
@@ -94,13 +94,13 @@ En los campos "user" debe ir tu usuario normal (si lo instalaste en root deberas
 
 Ahora deberas cambiar la zsh pero para el usuario root con los siguientes comandos:
 
-```
+```bash
 sudo su
 ```
 
 Ingresas la contraseña de tu usuario 😶, luego continuas con los comandos:
 
-```
+```bash
 cd ~
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >> ~/.zshrc
@@ -110,11 +110,11 @@ Al igual que en usuario normal (si lo has instalado en root puedes saltar este p
 
 Ahora crearas un link para el usuario root del zsh de tu usuario normal y configuraras el powerlevel10k (esto se debe ejucatar como el usuario root), si utilizaras root salta esta parte 🙃:
 
-```
+```bash
 exit
 ```
 
-```
+```bash
 cd ~
 rm .zshrc
 sudo ln -s -f /home/username/.zshrc /root/.zshrc
@@ -126,7 +126,7 @@ mv /root/p10k_root.zsh /root/.p10k.zsh
 
 Y por ultimo cambiaras la shell predeterminada para los usuarios 😃
 
-```
+```bash
 sudo usermod --shell /usr/bin/zsh root
 sudo usermod --shell /usr/bin/zsh username
 ```
