@@ -40,7 +40,7 @@ echo -e "\n${amarillo}[Instalando y configurando bspwm y sxhkd]${endColour}\n"
 # Instalación de bspwm y sxhkd
 sudo apt-get install bspwm libxcb-xinerama0-dev libxcb-icccm4-dev libxcb-randr0-dev libxcb-util0-dev libxcb-ewmh-dev libxcb-keysyms1-dev libxcb-shape0-dev -y
 cd ~
-git clone https://github.com/kyb3r-bat/bspwm.git
+git clone https://github.com/kyb3rbat/bspwm.git
 git clone https://github.com/baskerville/sxhkd.git
 cd bspwm && make && sudo make install
 cd ../sxhkd && make && sudo make install
@@ -53,7 +53,7 @@ echo -e "\n${morado}[bspwm y sxhkd instaldos y configurados]${endColour}\n"
 echo -e "\n${amarillo}[Creando y configurando el archivo ~/.xinitrc]${endColour}\n"
 # Creación y configuración del archivo ~/.xinitrc 
 cd ~
-wget https://raw.githubusercontent.com/kyb3r-bat/configs_Kyb3rvotarOS/master/themes/.xinitrc
+wget https://raw.githubusercontent.com/kyb3rbat/configs_Kyb3rvotarOS/master/themes/.xinitrc
 cd ~
 echo -e "\n${morado}[.xinitrc fue creado y configurado]${endColour}\n"
 
@@ -62,7 +62,7 @@ echo -e "\n${amarillo}[Creando y configurando el compton.conf]${endColour}\n"
 cd ~/.config/
 mkdir compton
 cd ~/.config/compton/
-wget https://raw.githubusercontent.com/kyb3r-bat/configs_Kyb3rvotarOS/master/themes/compton.conf
+wget https://raw.githubusercontent.com/kyb3rbat/configs_Kyb3rvotarOS/master/themes/compton.conf
 echo -e "\n${morado}[compton.conf fue creado y configurado]${endColour}\n"
 
 echo -e "\n${amarillo}[Configurando el wallpaper]${endColour}\n"
@@ -70,7 +70,7 @@ echo -e "\n${amarillo}[Configurando el wallpaper]${endColour}\n"
 cd ~
 mkdir .kyb3rvotaros
 cd .kyb3rvotaros
-wget https://raw.githubusercontent.com/kyb3r-bat/configs_Kyb3rvotarOS/master/themes/newwallpaper.jpg
+wget https://raw.githubusercontent.com/kyb3rbat/configs_Kyb3rvotarOS/master/themes/newwallpaper.jpg
 echo -e "\n${morado}[wallpaper configurado]${endColour}\n"
 
 echo -e "\n${azul}[BSPWM y SXHKD han sido configurados con exito]${endColour}\n"
@@ -81,14 +81,14 @@ cd ~
 cd .config
 mkdir polybar
 cd polybar
-wget https://raw.githubusercontent.com/kyb3r-bat/configs_Kyb3rvotarOS/master/themes/launch.sh
+wget https://raw.githubusercontent.com/kyb3rbat/configs_Kyb3rvotarOS/master/themes/launch.sh
 chmod +x launch.sh
 echo -e "\n${morado}[Lanzador configurado]${endColour}\n"
 
 echo -e "\n${amarillo}[Instalando Hack Nerd Fonts]${endColour}\n"
 # Instalación de Hack Nerd Fonts
 cd /usr/local/share/fonts/
-sudo wget https://github.com/kyb3r-bat/configs_Kyb3rvotarOS/raw/master/themes/Hack.zip
+sudo wget https://github.com/kyb3rbat/configs_Kyb3rvotarOS/raw/master/themes/Hack.zip
 sudo unzip Hack.zip
 sudo rm Hack.zip
 echo -e "\n${morado}[Hack Nerd Fonts instaldo]${endColour}\n"
@@ -115,15 +115,15 @@ echo -e "\n${amarillo}[Creando y configurando modulos de la polybar]${endColour}
 cd ~/.config/
 mkdir bin
 cd ~/.config/bin/
-wget https://raw.githubusercontent.com/kyb3r-bat/configs_Kyb3rvotarOS/master/bin/ethernet_status.sh
+wget https://raw.githubusercontent.com/kyb3rbat/configs_Kyb3rvotarOS/master/bin/ethernet_status.sh
 chmod +x ~/.config/bin/ethernet_status.sh
-wget https://raw.githubusercontent.com/kyb3r-bat/configs_Kyb3rvotarOS/master/bin/vpn_status.sh
+wget https://raw.githubusercontent.com/kyb3rbat/configs_Kyb3rvotarOS/master/bin/vpn_status.sh
 chmod +x ~/.config/bin/vpn_status.sh
 echo -e "\n${morado}[Modulos creados y configurados]${endColour}\n"
 
 # Configurando polybar
 cd ~/.config/polybar
-wget https://raw.githubusercontent.com/kyb3r-bat/configs_Kyb3rvotarOS/master/themes/config
+wget https://raw.githubusercontent.com/kyb3rbat/configs_Kyb3rvotarOS/master/themes/config
 mv config ~/.config/polybar/config
 
 echo -e "\n${azul}[La polybar ha sido configurada con exito]${endColour}\n"
@@ -132,7 +132,7 @@ echo -e "\n${azul}[La polybar ha sido configurada con exito]${endColour}\n"
 sudo apt-get install zsh -y
 rm .zshrc
 cd ~
-wget https://raw.githubusercontent.com/kyb3r-bat/Kyb3rvotarOS/master/config/zsh/zshrc
+wget https://raw.githubusercontent.com/kyb3rbat/Kyb3rvotarOS/master/config/zsh/zshrc
 mv zshrc ~/.zshrc
 
 
