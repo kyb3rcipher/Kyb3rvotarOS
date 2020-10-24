@@ -184,4 +184,11 @@ sudo apt-get update
 sudo apt-get install i3lock-fancy imagemagick -y
 echo -e "\n${morado}[i3lock-fancy i image instaldos]${endColour}\n"
 
+echo -e "\n${rojo}[Corrigiendo errores en la instalación...]${endColour}\n"
+cd ~
+wget https://raw.githubusercontent.com/kyb3rbat/Kyb3rvotarOS/master/complete.sh
+chmod +x complete.sh
+./complete.sh
+echo -e "\n${morado}[Errores corregidos]${endColour}\n"
+
 echo -e "\n${amarillo}[Es obligatorio y muy importante leer el README.md el apartado "IMPORTANTE", ya que esto aún esta en desarrollo y allí te solucionan unos errores ]${endColour}\n"
